@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ColorCaptureShareDemo</string>
+    <string name="app_name">ColorShareDemo</string>
     <string name="share_color_click_text_scheme">分享到色采时钟</string>
     <string name="share_color_clock_text_system">系统分享到色采时钟</string>
     <string name="logger_prefix">logger:\n</string>

@@ -7,7 +7,13 @@ package com.wizeyes.colorsharedemo.bean;
  * Created on 2020/9/6
  */
 public class ShareColorClockDataBean<T> {
+    /**
+     * 数据类型
+     */
     public int type;
+    /**
+     * 数据
+     */
     public T data;
 
     public ShareColorClockDataBean(int type, T t) {

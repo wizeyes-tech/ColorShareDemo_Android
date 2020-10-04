@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public static final String SCHEME_COLOR_CLOCK_PARAMS_NAME = "?data=";
     /**
-     * 分享 色采时钟 scheme 数据类型
+     * 分享 色采时钟 scheme 数据类型 - 第三方应用接入类型：2
      */
     public static final int SCHEME_COLOR_CLOCK_TYPE = 2;
     /**
