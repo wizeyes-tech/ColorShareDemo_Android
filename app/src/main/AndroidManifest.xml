@@ -9,11 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.wizeyes.colorsharedemo.MainActivity">
+
+        <activity android:name=".MainActivity">
+
+            <!-- 系统分享API intent-filter 配置 示例 -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
+            </intent-filter>
+
+            <!-- scheme 形式分享 in -->
+            <intent-filter>
+
+                <!-- 下面这几个必须要设置 intent-filter 配置 示例 -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!--colorclock://publicapi/entry-->
+                <data
+                    android:host="publicapi"
+                    android:pathPrefix="/entry"
+                    android:scheme="colorshareapp1" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +41,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

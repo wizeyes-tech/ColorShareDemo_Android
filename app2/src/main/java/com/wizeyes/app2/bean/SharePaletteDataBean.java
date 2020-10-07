@@ -1,4 +1,4 @@
-package com.wizeyes.colorsharedemo.bean;
+package com.wizeyes.app2.bean;
 
 import java.util.List;
 

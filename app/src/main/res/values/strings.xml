@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">ColorShareDemo</string>
+    <string name="app_name">ColorShareApp1</string>
     <string name="share_color_click_text_scheme">分享到色采时钟</string>
-    <string name="share_color_clock_text_system">系统分享到色采时钟</string>
+    <string name="share_color_clock_text_system">系统分享第三方App</string>
     <string name="logger_prefix">logger:\n</string>
     <string name="uninstall_color_clock_app">未安装色采时钟App</string>
     <string name="share_color_clock_error">分享到色采时钟失败:%1$s</string>
+    <string name="share_system_error">系统分享第三方App失败:%1$s</string>
+    <string name="share_title">Share</string>
 </resources>
